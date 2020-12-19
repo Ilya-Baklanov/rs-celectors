@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>RS-Selectors</title>
+  <link rel="stylesheet" href="./assets/vs.css">
+  <script src="./assets/highlight.pack.js"></script>
+</head>
+<body class="body" id="body">
+	<div class="game-zone">
+		<main class="main">
+			<h1 class="title">Select animated objects</h1>
+			<section class="main-table">
+				<div class="main-table-wrapper" id="table"></div>
+				<div class="main-table-edge">
+					<div class="main-table__left-leg"></div>
+					<div class="main-table__right-leg"></div>
+				</div>
+			</section>
+			<section class="main-editor">
+				<div class="main-editor-html">
+					<div class="main-editor-html__title">index.html</div>
+					<div class="main-editor-html__textarea">
+            <div class="main-editor-html__textarea-string-number">
+              1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9<br>10<br>11<br>12<br>13<br>14<br>15<br>16<br>17<br>18
+            </div>
+            <div class="main-editor-html__textarea-code">
+              <div><pre><code class="html html-block"></code></pre></div>
+              <div><pre><code class="html html-block"></code></pre></div>
+              <div><pre><code class="html html-block"></code></pre></div>
+              <div><pre><code class="html html-block"></code></pre></div>
+              <div><pre><code class="html html-block"></code></pre></div>
+            </div>
+					</div>
+				</div>
+				<div class="main-editor-css">
+					<div class="main-editor-css__title">style.css</div>
+					<div class="main-editor-css__textarea">
+            <div class="main-editor-css__textarea-string-number">
+              1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9<br>10<br>11<br>12<br>13<br>14<br>15<br>16<br>17<br>18
+            </div>
+            <div class="main-editor-css__textarea-code">
+              <div class="main-editor-css__textarea-form">
+                <form onsubmit="return true;" id="form-css" class="form-css">
+                  <input
+                  type="text"
+                  id="input-css"
+                  class="input-css"
+                  autofocus
+                  placeholder="Enter the name of selector..."
+                  autocomplete="off">
+                </form>
+                <button class="help-btn" id="help-btn">Help</button>
+              </div>
+              <div class="main-editor-css__textarea-code-styles">
+                <pre><code class="css">
+  {
+    /*here are cool style*/
+  }
+                </code></pre>
+              </div>
+            </div>
+          </div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+      <p class="footer-created-in">Created in 2020...</p>
+      <a href="https://github.com/Ilya-Baklanov" class="footer-creator">Creator: https://github.com/Ilya-Baklanov</a>
+      <a href="https://rs.school/js/" class="footer-logo">
+        <img src="./assets/rs_school_js.svg" alt="">
+      </a>
+    </footer>
+	</div>
+	<div class="level-zone">
+    <div class="level-zone-header">
+      <h2 class="level-zone-header__text" id="current-level"></h2>
+      <form class="level-zone-header__buttons">
+        <button class="level-zone-header__btn-prev" id="prev-btn">Prev</button>
+        <button class="level-zone-header__btn-next" id="next-btn">Next</button>
+      </form>
+    </div>
+		<div class="level-zone__level-list">
+      <form>
+        <button class="level-zone__reset-progress-btn" id="reset-progress-btn">Reset progress</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
